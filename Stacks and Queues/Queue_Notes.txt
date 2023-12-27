@@ -1,0 +1,78 @@
+The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
+
+Creating Queue Objects: Since Queue is an interface, objects cannot be created of the type queue. We always need a class which extends this list in order to create an object. And also, after the introduction of Generics in Java 1.5, it is possible to restrict the type of object that can be stored in the Queue. This type-safe queue can be defined as:
+
+// Obj is the type of the object to be stored in Queue 
+Queue<Obj> queue = new PriorityQueue<Obj> ();  
+
+In Java, the Queue interface is a subtype of the Collection interface and represents a collection of elements in a specific order. It follows the first-in, first-out (FIFO) principle, which means that the elements are retrieved in the order in which they were added to the queue.
+
+The Queue interface provides several methods for adding, removing, and inspecting elements in the queue. Here are some of the most commonly used methods:
+
+add(element): Adds an element to the rear of the queue. If the queue is full, it throws an exception.
+
+offer(element): Adds an element to the rear of the queue. If the queue is full, it returns false.
+
+remove(): Removes and returns the element at the front of the queue. If the queue is empty, it throws an exception.
+
+poll(): Removes and returns the element at the front of the queue. If the queue is empty, it returns null.
+
+element(): Returns the element at the front of the queue without removing it. If the queue is empty, it throws an exception.
+
+peek(): Returns the element at the front of the queue without removing it. If the queue is empty, it returns null.
+
+NOTE: 
+The Queue interface is implemented by several classes in Java, including LinkedList, ArrayDeque, and PriorityQueue. Each of these classes provides different implementations of the queue interface, with different performance characteristics and features.
+
+---------------------------- Normal QueueOperations -----------------------------------------------
+Queue<String> queue = new LinkedList<>();
+
+--------------------------- Priority Queue Implemetation ------------------------------------------
+The elements are stored based on the priority order which is ascending by default.
+
+Queue<String> pq = new PriorityQueue<>();
+
+For Example: 
+
+// Java program to add elements
+// to a Queue
+
+import java.util.*;
+
+public class GFG {
+
+	public static void main(String args[])
+	{
+		Queue<String> pq = new PriorityQueue<>();
+
+		pq.add("Geeks");
+		pq.add("For");
+		pq.add("Geeks");
+
+		System.out.println(pq);
+	}
+}
+
+Output: [For, Geeks, Geeks]
+
+------------------ How to iterate a queue ----------------------------------------------
+
+Iterator iterator = pq.iterator();
+ 
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+
+-------------------------------------------------------------------------------------
+
+Characteristics of a Queue: The following are the characteristics of the queue:
+
+The Queue is used to insert elements at the end of the queue and removes from the beginning of the queue. It follows FIFO concept.
+The Java Queue supports all methods of Collection interface including insertion, deletion, etc.
+LinkedList, ArrayBlockingQueue and PriorityQueue are the most frequently used implementations.
+If any null operation is performed on BlockingQueues, NullPointerException is thrown.
+The Queues which are available in java.util package are Unbounded Queues.
+The Queues which are available in java.util.concurrent package are the Bounded Queues.
+All Queues except the Deques supports insertion and removal at the tail and head of the queue respectively. The Deques support element insertion and removal at both ends. 
+
+
+Reference: https://www.geeksforgeeks.org/queue-interface-java/
