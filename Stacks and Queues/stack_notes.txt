@@ -77,3 +77,5 @@ public class StackDemo {
 		} 
 	} 
 } 
+
+- Stack.clone() : TO make a shallow copy of the Stack.
