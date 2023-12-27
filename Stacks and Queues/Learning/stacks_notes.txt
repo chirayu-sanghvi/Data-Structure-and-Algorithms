@@ -1,0 +1,81 @@
+Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. The class can also be said to extend Vector and treats the class as a stack with the five mentioned functions. The class can also be referred to as the subclass of Vector.
+
+
+
+How to Create a Stack?
+In order to create a stack, we must import java.util.stack package and use the Stack() constructor of this class. The below example creates an empty Stack.
+
+Stack<E> stack = new Stack<E>(); 
+
+Here E is the type of object.
+for Example: 
+Stack<Integer> stack = new Stack<Integer>();
+
+Methods in Stack Class 
+METHOD
+
+DESCRIPTION
+
+- empty()
+It returns true if nothing is on the top of the stack. Else, returns false.
+
+- peek()
+Returns the element on the top of the stack, but does not remove it.
+
+- pop()
+Removes and returns the top element of the stack. An ‘EmptyStackException’ 
+An exception is thrown if we call pop() when the invoking stack is empty.
+
+- push(Object element)
+Pushes an element on the top of the stack.
+
+- search(Object element)
+It determines whether an object exists in the stack. If the element is found,
+It returns the position of the element from the top of the stack. Else, it returns -1.
+
+
+
+
+HOW TO ITERATE JAVA STACK:
+The Java.util.Stack.iterator() method is used to return an iterator of the same elements as that of the Stack. The elements are returned in random order from what was present in the stack.
+
+Syntax:
+Iterator iterate_value = Stack.iterator();
+
+Parameters: The function does not take any parameter.
+Return Value: The method iterates over the elements of the stack and returns the values(iterators).
+
+
+// Java code to illustrate iterator() 
+
+import java.util.*; 
+import java.util.Stack; 
+
+public class StackDemo { 
+	public static void main(String args[]) 
+	{ 
+		// Creating an empty Stack 
+		Stack<String> stack = new Stack<String>(); 
+
+		// Use add() method to add elements into the Stack 
+		stack.add("Welcome"); 
+		stack.add("To"); 
+		stack.add("Geeks"); 
+		stack.add("4"); 
+		stack.add("Geeks"); 
+
+		// Displaying the Stack 
+		System.out.println("Stack: " + stack); 
+
+		// Creating an iterator 
+		Iterator value = stack.iterator(); 
+
+		// Displaying the values 
+		// after iterating through the stack 
+		System.out.println("The iterator values are: "); 
+		while (value.hasNext()) { 
+			System.out.println(value.next()); 
+		} 
+	} 
+} 
+
