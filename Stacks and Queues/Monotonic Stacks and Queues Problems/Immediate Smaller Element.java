@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/immediate-smaller-element-_1062597?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
+Leet Code: https://www.interviewbit.com/problems/nearest-smaller-element/
 
 Problem statement
 You are given an integer array 'a' of size 'n'.
