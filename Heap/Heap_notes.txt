@@ -2,3 +2,9 @@ Identification:
 If you find these twqo conditions that most propably this question belongs to heap: 
 1) K
 2) Smallest / Largest
+
+if k + smallest = Max heap 
+if k + largest = Min heap
+
+Heap coverts the time complexity to sort from nlogn to nlogk , given we need k elements
+(Hence heap is mostly used in the questions related to sorting and arranging)
