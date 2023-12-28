@@ -71,7 +71,7 @@ public class Solution {
         int n = arr.length;
         int q = query.length;
         int res[] = new int[q];
-        int counter = 0
+        int counter = 0;
         for(int i: query){
             Stack<Integer> st = new Stack<>();
             for(int j=i+1;j<n;j++){
