@@ -9,4 +9,4 @@ if k + largest = Min heap
 Heap coverts the time complexity to sort from nlogn to nlogk , given we need k elements
 (Hence heap is mostly used in the questions related to sorting and arranging)
 
-The heigh of a complete binary tree is minimum always log(n)
+The height of a complete binary tree is minimum always log(n)
