@@ -3,20 +3,9 @@ Coding Ninja: https://www.codingninjas.com/studio/problems/count-of-greater-elem
 
 Problem statement
 You are given an array 'arr' of length 'N'.
-
-
-
 You are given 'Q' queries, and for each query, you are given an index(0-based indexing).
-
-
-
 Answer to each query is the number of the strictly greater elements to the right of the given index element.
-
-
-
 You must return an array 'answer' of length ’N’, where ‘answer[i]’ is the answer to the ‘ith’ query.
-
-
 
 Example:
 Input:
@@ -25,7 +14,6 @@ Output:
 1 2
 
 Explanation: The element at index 0 is 5 for the first query. There is only one element greater than 5 towards the right, i.e., 10.
-
 For the second query, the element at index 1 is 2. There are two elements greater than 2 towards the right, i.e., 10 and 4. 
 
 Hence we return [1, 2]
@@ -44,9 +32,7 @@ Output:
 7 6 1
 
 Explanation: The element at index 0 is 1 for the first query. There are seven elements greater than 1 towards the right, i.e., 3, 6, 5, 8, 9, 13, and 4.
-
 For the second query, the element at index 1 is 3. There are six elements greater than 3 towards the right, i.e., 6, 5, 8, 9, 13, and 4. 
-
 For the third query, the element at index 5 is 9. There is only one element greater than 9 towards the right, i.e., 13. 
 
 Hence we return [7, 6, 1].
