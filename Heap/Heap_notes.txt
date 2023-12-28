@@ -1,0 +1,4 @@
+Identification: 
+If you find these twqo conditions that most propably this question belongs to heap: 
+1) K
+2) Smallest / Largest
