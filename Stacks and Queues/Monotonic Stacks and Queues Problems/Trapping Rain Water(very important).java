@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/trapping-rain-water_630519?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
+Leet Code: https://leetcode.com/problems/trapping-rain-water/
 
 Problem statement
 You have been given a long type array/list 'arr’ of size 'n’.
