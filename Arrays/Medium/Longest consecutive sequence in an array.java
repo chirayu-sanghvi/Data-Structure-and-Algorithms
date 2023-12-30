@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/longest-successive-elements_6811740?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
+Leet code: https://leetcode.com/problems/longest-consecutive-sequence/description/
 
 Problem statement
 There is an integer array ‘A’ of size ‘N’.
