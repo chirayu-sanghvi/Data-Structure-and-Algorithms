@@ -1,6 +1,6 @@
 /*
-Coding Ninja:
-Leet Code:
+Coding Ninja: https://www.codingninjas.com/studio/problems/check-identical-trees_799364
+Leet Code: https://leetcode.com/problems/same-tree/description/
 Problem statement
 You are given two binary trees with 'n' and 'm' nodes respectively.
 You need to return true if the two trees are identical. Otherwise, return false.
