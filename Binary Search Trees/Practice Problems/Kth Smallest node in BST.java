@@ -1,5 +1,7 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/kth-smallest-node-in-bst_920441
+Leet Code: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
 Problem statement
 You have been given a Binary Search Tree of integers. You are supposed to return the k-th (1-indexed) smallest element in the tree.
 
