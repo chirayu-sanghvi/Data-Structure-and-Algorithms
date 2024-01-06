@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/find-the-number-of-states_1377943
+Leet Code: https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/
 
 Problem statement
 You are given ‘n’ cities, some of which are connected by bidirectional roads. You are also given an ‘n x n’ matrix i.e. ‘roads’, where if city ‘i’ and ‘j’ are connected by a road then ‘roads[i][j]'= 1, otherwise ‘roads[i][j]' = 0.
