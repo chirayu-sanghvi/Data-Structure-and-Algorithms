@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/replace-%E2%80%98o%E2%80%99-with-%E2%80%98x%E2%80%99_630517
+Leet Code: https://leetcode.com/problems/surrounded-regions/description/
 
 Problem statement
 Given a 2D array grid G of 'O's and 'X's. The task is to replace all 'O' with 'X' contained in each island. Where, an island is a set of 'O's connected horizontally or vertically and surrounded by 'X' from all of it's boundaries. (Boundary means top, bottom, left and right)
