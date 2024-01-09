@@ -53,6 +53,9 @@ For the first test case:
 
 For the second test case:
 There are no safe nodes. So we return an empty array/list.
+
+===================== Solution Idea =================
+Used same concept I used in the course schedule II question done before.
 */
 
 import java.util.* ;
