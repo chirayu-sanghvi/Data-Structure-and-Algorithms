@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/maximum-sum-of-non-adjacent-elements_843261
+Leet Code: https://leetcode.com/problems/house-robber/
 
 Problem statement
 You are given an array/list of ‘N’ integers. You are supposed to return the maximum sum of the subsequence with the constraint that no two elements are adjacent in the given array/list.
