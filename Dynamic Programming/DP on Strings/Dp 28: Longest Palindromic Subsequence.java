@@ -1,6 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/longest-palindromic-subsequence_842787
-Leet Code: 
+Leet Code: https://leetcode.com/problems/longest-palindromic-subsequence/
 
 Problem statement
 You have been given a string ‘A’ consisting of lower case English letters. Your task is to find the length of the longest palindromic subsequence in ‘A’.
