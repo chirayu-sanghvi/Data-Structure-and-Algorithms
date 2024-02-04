@@ -92,3 +92,29 @@ public class Solution {
     }
 }
 
+
+// Dynamic Programming ( Tabulation Approach)
+import java.util.*;
+public class Solution {
+    public static int maxProfit(int[] prices) {
+        // Write your code here.
+        int n = prices.length;
+        int dp[][][] = new int[n+1][2][3];
+        for(int index=n-1;index>=0;index--){
+            for(int buy=0;buy<2;buy++){
+                for(int count = 0;count <= 2;count++){
+                    if(buy == 1){
+                        dp[index][buy][count] = Math.max(-prices[index] + dp[index+1][0][count], 0 + dp[index+1][1][count]);
+                    }
+                    else {
+                        if(count - 1 >= 0)
+                        dp[index][buy][count]  = Math.max(prices[index] + dp[index+1][1][count-1], 0 + dp[index+1][0][count]);
+                        else
+                        dp[index][buy][count]  = 0 + dp[index+1][0][count];
+                    }
+                }
+            }
+        }
+        return dp[0][1][2];
+    }
+}
