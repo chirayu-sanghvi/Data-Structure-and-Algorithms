@@ -1,6 +1,7 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-iii_1071012
-Leet Code: 
+Leet Code: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+
 Problem statement
 You are Harshad Mehta’s friend. He told you the price of a particular stock for the next ‘n’ days.
 
