@@ -1,5 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/search-in-a-rotated-sorted-array-ii_7449547
+Leet Code: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
 
 Problem statement
 You are given a rotated sorted array 'a' of length 'n' and a 'key'. You need to determine if the 'key' exists in the array 'a'.
