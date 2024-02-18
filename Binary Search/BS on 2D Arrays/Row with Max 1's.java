@@ -77,3 +77,42 @@ public class Solution
     return index;
     }
 }
+
+// Using Binary Search
+import java.util.ArrayList;
+public class Solution
+{
+    public static int maximumOnesRow(ArrayList<ArrayList<Integer>> arr, int n, int m)
+    {
+        //	  Write your code here.
+        int count = 0;
+        int index = -1;
+        int sum = 0;
+        for(int i =0;i<n;i++){
+            sum = 0;
+            int low = 0;
+            int mid = 0;
+            int high = m-1;
+            while(low <= high){
+                mid = (int)(low+high)/2;
+                if(arr.get(i).get(mid) == 1){
+                    if(high == mid){
+                        sum = sum + 1;
+                    }
+                    else{
+                    sum= sum + (high-mid)+1;
+                    }
+                    high = mid-1;
+                }
+                else{
+                    low = mid+1;
+                }
+            }
+                if(sum > count){
+                    index= i;
+                    count = sum;
+                }
+        }
+    return index;
+    }
+}
