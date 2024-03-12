@@ -41,7 +41,7 @@ Sample Input 2:
 4 8 3 10 4 4 
 Sample Output 2:
 7
-2
+2.
 */
 import java.util.* ;
 import java.io.*; 
