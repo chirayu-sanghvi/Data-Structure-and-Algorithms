@@ -1,6 +1,6 @@
 /*
 Coding Ninja: https://www.codingninjas.com/studio/problems/nodes-in-complete-binary-tree_1281151
-Leet Code:
+Leet Code: https://leetcode.com/problems/count-complete-tree-nodes/description/
 Problem statement
 You are given the root of a complete binary tree, you need to calculate the number of nodes in the given complete binary tree.
 
